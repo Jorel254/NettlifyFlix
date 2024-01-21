@@ -1,4 +1,4 @@
-function animationInit(jQuery) {
+function initSwiper(jQuery) {
   jQuery(".swiper-nav").on("click touch", function (e) {
     e.preventDefault();
     let arrow = jQuery(this);
